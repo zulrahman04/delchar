@@ -2,8 +2,8 @@ from tkinter import *
 from tkinter import filedialog
 class MyWindow:
     def __init__(self, win):
-        self.lbl1=Label(win, text='Karakter ke')
-        self.lbl2=Label(win, text='karakter')
+        self.lbl1=Label(win, text='character  to')
+        self.lbl2=Label(win, text='character')
         self.lbl3=Label(win, text='Folder')
         self.t1=Entry(bd=3)
         self.t2=Entry()
